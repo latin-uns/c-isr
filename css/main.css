@@ -1,0 +1,87 @@
+@charset "utf-8";
+/*2012 Aug yaki rakion main*/
+
+
+/* main Left Contents */
+#mLeftContents div.rk_movie{height:213px;background:url(../imagenes/3/rk/main/mTopContents_bg.gif) repeat-x;border:1px solid #000;color:#963;padding:10px}
+#mLeftContents div.rk_movie ul li{float:left;margin-top:5px;padding-right:5px;margin-left:5px;border-right:1px solid #630;height:16px;font-size:10px}
+#mLeftContents div.rk_movie ul li a{color:#963}
+#mLeftContents div.rk_movie ul li a:hover,#mLeftContents div.rk_movie ul li a.on{color:#FC9;font-weight:bolder;letter-spacing:.02em}
+#mLeftContents div.btnCash,#mLeftContents div.gameGuide,#mLeftContents div.forum{margin:0 0 0 10px}
+#mLeftContents div.gameGuide a{font-size:14px;font-weight:bolder;color:#600}
+#mLeftContents div.gameGuide ul li{width:242px;height:30px;border-bottom:1px solid #CCC;background:url(../imagenes/3/rk/main/mLeft_gameGuide_arrow.jpg) no-repeat 250px 10px;padding:10px 0 0 30px}
+#mLeftContents div.gameGuide ul li:hover{background:url(../imagenes/3/rk/main/mLeft_gameGuide_arrow.jpg) no-repeat 250px -30px}
+#mLeftContents div.gameGuide ul li.event{width:242px;height:30px;border-bottom:1px solid #CCC;background:url(../imagenes/3/rk/main/mLeft_event_arrow.gif) no-repeat 250px 10px;padding:10px 0 0 30px}
+#mLeftContents div.gameGuide ul li.event a{color:#C00;cursor:pointer}
+#mLeftContents div.eventLayer{position:absolute;top:600px;left:270px;z-index:1;visibility:hidden;background:url(../imagenes/3/rk/main/mLeft_event_bg.gif) repeat-x;width:520px;height:300px;border:1px solid #7e122b;padding:10px 10px 10px 20px}
+#mLeftContents div.eventLayer h3{color:#F90;font-size:36px;line-height:42px;font-family:"Times New Roman", Times, serif;margin-top:20px}
+#mLeftContents div.eventLayer p.close{float:right;cursor:pointer;margin:0}
+#mLeftContents div.eventLayer p{margin-top:10px;color:#FFF;font-weight:bolder}
+#mLeftContents div.eventLayer p em{width:85px;display:inline-block;color:#F90}
+#mLeftContents div.eventLayer ul{padding-top:20px;margin:20px 0 0}
+#mLeftContents div.eventLayer ul h4{font-size:14px;color:#F90;font-weight:bolder;margin-top:20px}
+#mLeftContents div.eventLayer ul li{color:#FFF;font-weight:bolder;height:24px}
+#mLeftContents div.forum{background:url(../imagenes/3/rk/main/mLeft_forum_bg.jpg) no-repeat;color:#600;height:135px;margin:18px 0 0 10px;padding:20px 0 0 30px}
+#mLeftContents div.forum p{margin-top:10px;color:#767676}
+
+/* main Center Contents */
+#mCenterContents div.rollingBN{border-top:1px solid #000;border-bottom:1px solid #000;height:233px}
+#mCenterContents div.mNotice{display:inline-block;margin-top:18px;width:440px}
+#mCenterContents div.mNotice ul.noticeList{background:url(../imagenes/3/rk/main/mCenter_notice_titleBG.jpg) repeat-x;height:35px;border-left:1px solid #CCC;border-right:1px solid #CCC}
+#mCenterContents div.mNotice ul.noticeList span{float:right;display:inline-block;width:15px;padding:10px 10px 0 0}
+#mCenterContents div.mNotice ul.noticeList li{float:left;border-right:1px solid #CCC;padding:8px 20px}
+#mCenterContents div.mNotice ul.noticeList li:hover,#mCenterContents div.mNotice ul.noticeList li.on{background:url(../imagenes/3/rk/main/mCenter_notice_title_ovBG.jpg) repeat-x;border-right:1px solid #CCC;color:#eee;cursor:pointer}
+.noticeBbs{clear:both;position:relative;background:#FFF;border-left:1px solid #CCC;border-right:1px solid #CCC;border-bottom:1px solid #CCC;padding:10px}
+.noticeBbs table tr,.noticeBbs table td{height:25px;margin:0;padding:0}
+.noticeBbs .date{font-size:11px;color:#933;width:77px}
+.noticeBbs a{background:url(../imagenes/3/rk/main/mCenter_notice_title_arrow.jpg) no-repeat;display:inline-block;padding:3px 0 4px 60px}
+.noticeBbs a.notice{background-position:0 4px}
+.noticeBbs a.update{background-position:0 -23px}
+.noticeBbs a.event{background-position:0 -49px}
+#mCenterContents div.mItem{background:#FFF;border-left:1px solid #CCC;border-right:1px solid #CCC;border-bottom:1px solid #CCC;margin-top:15px;padding:0}
+#mCenterContents div.mItem h3{background:url(../imagenes/3/rk/main/mCenter_notice_titleBG.jpg) repeat-x;height:15px;font-size:14px;padding:10px 10px 10px 20px}
+#mCenterContents div.mItem h3 em{float:left;display:inline-block;width:200px;font-style:normal}
+#mCenterContents div.mItem h3 span{float:right;display:inline-block;width:15px;padding:0}
+#mCenterContents div.mItem ul{clear:both;display:inline-block;zoom:0;padding:10px}
+#mCenterContents div.mItem ul li{float:left;width:85px;text-align:center;padding:10px 9px}
+#mCenterContents div.mItem ul li img{border:1px solid #999}
+
+/* mItem alert */
+#mCenterContents div.mItem ul li div.alert{position:absolute;top:-35px}
+#mCenterContents div.mItem ul li div.alert .label{width:150px;min-height:65px;background-color:#FFF;border:#600 solid 3px;overflow:hidden;font-size:11px;color:#333;line-height:12px;margin-top:5px;text-align:center;padding:5px}
+#mCenterContents div.mItem ul li div.alert .tail{left:35px;margin-left:-10px;border-right:10px solid transparent;border-top:10px solid #600;border-left:10px solid transparent;position:absolute;bottom:-10px;width:0;height:0}
+#mCenterContents div.mItem ul li div.alert .tit{font-size:12px;font-weight:bolder;color:#600;margin-bottom:5px;display:inline-block}
+:first-child+html #mCenterContents div.mItem ul li div.alert{margin-left:-114px}
+:first-child+html #mCenterContents div.mItem ul li div.alert .tail{left:45px;margin-left:10px}
+:first-child+html #mCenterContents div.mItem ul li div.alert02{margin-left:-154px}
+:first-child+html #mCenterContents div.mItem ul li div.alert02 .tail{left:65px;margin-left:10px}
+
+/* main right Contents */
+#mRightContents div.loginSet{height:195px;background:url(../imagenes/3/rk/main/mTopContents_bg.gif) repeat-x;border:1px solid #000;color:#C96;padding:28px 10px 10px 13px}
+#mRightContents div.loginSet p{margin-top:10px;color:#8c7055}
+#mRightContents div.loginSet h2{font-size:18px;line-height:18px;height:20px}
+#mRightContents div.loginSet ul.login_info{color:#C93}
+#mRightContents div.loginSet ul.login_info li{height:22px}
+#mRightContents div.loginSet ul.login_info strong{color:#960}
+#mRightContents div.loginSet h4{height:36px}
+#mRightContents div.loginSet h4 em{font-style:normal;width:195px;float:left;font-size:16px;color:#CCC}
+#mRightContents div.loginSet h4 span.more{color:#999;font-size:11px;font-style:normal;width:40px;float:right}
+#mRightContents div.ranking{margin-top:5px;color:#333;padding:20px 0 0 13px}
+#mRightContents div.ranking h3{font-style:normal;font-size:14px;height:14px;line-height:20px;padding:0}
+#mRightContents div.ranking h3 em{float:left;color:#600}
+#mRightContents div.ranking h3 span{float:right;font-weight:400}
+#mCenterContents div.mItem h3 em{float:left;width:200px;display:inline-block;color:#600}
+#mCenterContents div.mItem h3 span{float:right;display:inline-block}
+#mRightContents div.ranking span{display:inline-block;font-size:10px;margin-right:5px}
+.up{font-size:11px;background:url(../imagenes/3/rk/ranking_upDown.gif) no-repeat 18px 0;color:#999;padding:0 13px 0 10px}
+.down{font-size:11px;background:url(../imagenes/3/rk/ranking_upDown.gif) no-repeat 18px -38px;color:#999;padding:0 13px 0 10px}
+.stay{font-size:11px;background:url(../imagenes/3/rk/ranking_upDown.gif) no-repeat 18px -80px;color:#999;width:8px;height:11px;display:inline-block;padding:0 11px}
+:first-child+html .stay{font-size:11px;background:url(../imagenes/3/rk/ranking_upDown.gif) no-repeat 18px -80px;color:#999;width:8px;height:11px;display:inline-block;padding:0 11px 0 15px}
+#mRightContents div.ranking table{border-top:1px solid #aaa;border-bottom:1px solid #aaa;margin:10px 0 0}
+#mRightContents div.ranking table tr td{border-bottom:1px solid #CCC;font-size:11px;padding:4px 0}
+#mRightContents div.ranking table tr:hover{background:#e0e0e0}
+#mRightContents div.ranking table .level{font-size:11px;width:25px;color:#78644f}
+#mRightContents div.ranking table .clan{width:30px}
+#mRightContents div.ranking table img{border:1px solid #CCC}
+#mRightContents div.faceLikebox{width:240px;height:195px;border-bottom:1px solid #CCC;overflow:hidden;margin:15px 0 0 13px}
+#mRightContents div.ranking span a:hover,#mRightContents div.ranking span a.on,#mRightContents div.ranking table .first{color:#900;font-weight:bolder}

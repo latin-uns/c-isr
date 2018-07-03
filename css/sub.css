@@ -1,0 +1,261 @@
+@charset "utf-8";
+
+/* CSS Document */
+#rk_sub h2{font-style:normal;font-size:20px;line-height:20px;height:40px;color:#600;float:left}
+#rk_sub h3 em,#rk_sub h4 em,#rk_sub h5 em{float:left;color:#600}
+#rk_sub h2 span,#rk_sub h3 span,#rk_sub h4 span,#rk_sub h5 span{float:right;font-size:10px;font-weight:400;color:#848484}
+#rk_sub h3{font-style:normal;font-size:18px;line-height:20px;height:30px;width:100%;margin:25px 0 0}
+#rk_sub h4{font-style:normal;font-size:22px;line-height:20px;height:30px;width:100%;border-bottom:1px solid #e4e4e4;font-family:"Times New Roman", Times, serif;margin:30px 0 10px;padding:0}
+#rk_sub h5{font-style:normal;font-size:12px;line-height:18px;min-height:23px;width:100%;letter-spacing:0;margin:10px 0 0;padding:0}
+strong{color:#C96}
+.address{float:right;font-size:11px;font-weight:400;letter-spacing:-.04em}
+.add{color:#C00;font-weight:400}
+
+
+/* main right Contents */
+#mRightContents div.loginSet{height:195px;background:url(../imagenes/3/rk/main/mTopContents_bg.gif) repeat-x;border:1px solid #000;color:#C96;padding:28px 10px 10px 13px}
+#mRightContents div.loginSet p{margin-top:10px;color:#8c7055}
+#mRightContents div.loginSet h2{font-size:18px;line-height:18px;color:#C96;height:20px}
+#mRightContents div.loginSet ul.login_info{color:#C93}
+#mRightContents div.loginSet ul.login_info li{height:22px}
+#mRightContents div.loginSet ul.login_info strong{color:#960}
+#mRightContents div.loginSet h4{height:36px}
+#mRightContents div.loginSet h4 em{font-style:normal;width:195px;float:left;font-size:16px;color:#CCC}
+#mRightContents div.loginSet h4 span.more{color:#999;font-size:11px;font-style:normal;width:40px;float:right}
+#mRightContents div.ranking{margin-top:5px;color:#333;padding:20px 0 0 13px}
+#mRightContents div.ranking h3{height:16px;padding:0}
+#mRightContents div.ranking h3 em{float:left;color:#600;font-size:14px}
+#mRightContents div.ranking h3 span{float:right;font-style:normal}
+#mCenterContents div.mItem h3 em{float:left;width:200px;display:inline-block;color:#600}
+#mCenterContents div.mItem h3 span{float:right;display:inline-block}
+#mRightContents div.ranking span{display:inline-block;font-size:10px;margin-right:5px}
+#mRightContents div.ranking table{border-top:1px solid #aaa;border-bottom:1px solid #aaa;margin:10px 0 0}
+#mRightContents div.ranking table tr td{border-bottom:1px solid #CCC;font-size:11px;padding:4px 0}
+#mRightContents div.ranking table tr:hover{background:#e0e0e0}
+#mRightContents div.ranking table .level{font-size:11px;width:25px;color:#78644f}
+#mRightContents div.ranking table .clan{width:30px}
+#mRightContents div.ranking table img{border:1px solid #CCC}
+#mRightContents div.faceLikebox{width:240px;height:210px;border-bottom:1px solid #CCC;overflow:hidden;margin:15px 0 0 13px}
+#mRightContents div.ranking span a:hover,#mRightContents div.ranking span a.on,#mRightContents div.ranking table .first{color:#900;font-weight:bolder}
+
+/* sub Contents */
+#subContents{display:inline-block;min-height:700px;background:#e4e4e4;margin-top:5px}
+#rk_sub{float:left;width:692px;min-height:725px;background:#fff;padding:40px 20px}
+#rk_sub p em{color:#963;font-weight:bolder;font-size:14px}
+:first-child + html .rk_basictab{height:29px;position:relative}
+.rk_basictab ul li a{background-position:100% 0;color:#707070;display:inline-block;font-weight:700;letter-spacing:-.09em;text-decoration:none!important;padding:2px 8px 0}
+:first-child + html #rk_basictab{height:49px;position:relative}
+#rk_basictab ul li a{background-position:100% 0;color:#707070;display:inline-block;font-weight:700;letter-spacing:-.05em;text-decoration:none!important;padding:2px 8px 0}
+.rk_basictab,#rk_basictab{clear:both;padding-top:20px;position:relative;border-bottom:-1px solid #CCC}
+.rk_basictab ul,.rk_basictab ul li,#rk_basictab ul,#rk_basictab ul li{height:28px;border-bottom:1px solid #c1c1c1;margin:0;padding:0}
+.rk_basictab ul li,#rk_basictab ul li{list-style:none outside none;float:left;line-height:26px;margin-right:-1px}
+.rk_basictab ul li,.rk_basictab ul li a,#rk_basictab ul li,#rk_basictab ul li a{background:url(../imagenes/3/rk/bg_tab2_off.gif) no-repeat scroll 0 0 transparent}
+.rk_basictab ul li a,#rk_basictab ul li a{background-position:100% 0;color:#707070;display:inline-block;font-weight:700;letter-spacing:-.05em;text-decoration:none!important;padding:2px 8px 0}
+.rk_basictab ul li a:hover,#rk_basictab ul li a:hover{color:#960B0B}
+.rk_basictab ul li.on,.rk_basictab ul li.on a,#rk_basictab ul li.on,#rk_basictab ul li.on a{background-image:url(../imagenes/3/rk/bg_tab2_on.gif)}
+.rk_basictab ul li.on a,#rk_basictab ul li.on a{color:#FFF}
+.rk_basictab p.sub,#rk_basictab p.sub{clear:both;margin:0 20px;padding:10px 0}
+
+/* Raking */
+.rankingTop{display:inline-block;margin-bottom:20px}
+.rankingTop ul li{width:184px;height:130px;float:left;margin-right:8px;background:url(../imagenes/3/rk/ranking_topBg.gif) no-repeat;display:inline-block;padding:30px 0 0 41px}
+.rankingTop ul li ul li,.rankingTop2 ul li ul li{background:none;height:15px;color:#FFF;font-size:11px;padding:3px 0 0}
+.rankingTop ul li ul li.tit,.rankingTop2 ul li ul li.tit{font-size:14px;height:40px;padding-left:45px;margin-bottom:10px;font-weight:bolder}
+.rankingTop ul li img,.rankingTop2 ul li img{border:1px solid #999}
+.rankingTop ul li ul li em,.rankingTop2 ul li ul li em{color:#999}
+.rankingTop2 ul li{width:184px;height:130px;float:left;margin-right:8px;background:url(../imagenes/3/rk/ranking_topBg2.jpg) no-repeat;display:inline-block;padding:30px 0 0 41px}
+.up{font-size:11px;background:url(../imagenes/3/rk/ranking_upDown.gif) no-repeat 18px 0;color:#999;padding:0 13px 0 10px}
+.down{font-size:11px;background:url(../imagenes/3/rk/ranking_upDown.gif) no-repeat 18px -38px;color:#999;padding:0 13px 0 10px}
+.stay{font-size:11px;background:url(../imagenes/3/rk/ranking_upDown.gif) no-repeat 18px -80px;color:#999;width:8px;height:11px;display:inline-block;padding:0 11px}
+:first-child+html .stay{font-size:11px;background:url(../imagenes/3/rk/ranking_upDown.gif) no-repeat 18px -80px;color:#999;width:8px;height:11px;display:inline-block;padding:0 11px 0 15px}
+.small_list{float:left;font-size:11px;padding-top:10px}
+
+/* Clan */
+.clanTop{display:inline-block;margin-bottom:20px}
+.clanTop ul li{width:210px;height:110px;float:left;background:url(../imagenes/3/rk/clan_topBg.gif) no-repeat;margin:0 5px 0 0;padding:40px 0 0 15px}
+.clanTop ul li.newClan{background-position:0 0}
+.clanTop ul li.bestMember{background-position:-231px 0}
+.clanTop ul li.bestRanking{background-position:-463px 0}
+.clanTop ul li ul span{float:left}
+.clanTop ul li ul li{background:none;height:15px;color:#666;width:130px;padding:3px 0 0 5px}
+.clanTop ul li ul li.tit{font-size:14px;height:30px;font-weight:bolder}
+.clanTop ul li ul li em{color:#630}
+.clanList_View p.tit{background:#e4e4e4;font-size:20px;color:#903;font-weight:bolder;font-family:"Times New Roman", Times, serif;border-top:2px solid #900;padding:15px 20px 5px}
+.clanList_View p{background:#e4e4e4;font-size:12px;padding:0 20px 15px}
+.clanList_View p em{font-style:normal;color:#999}
+.clanList_View p strong{color:#960}
+.clanList_View p.txt{background:none;border-bottom:2px solid #900;padding:20px}
+
+/* basic Table */
+.tbl_type{width:100%;text-align:center}
+.tbl_type,.tbl_type th,.tbl_type td,.tbl_type img,.tbl_type4,.tbl_type4 th,.tbl_type4 td{border:0}
+.tbl_type caption,.tbl_type2 caption,.tbl_type3 caption,.tbl_type4 caption{display:none}
+.tbl_type th{border-top:1px solid #dcdcdc;background-color:#f5f7f9;background:url(../imagenes/3/rk/bg_table_th.gif) repeat 0 0;color:#FFF;font-weight:700;padding:8px 0 7px}
+.tbl_type tr.group td{border-bottom:2px solid #CCC}
+.tbl_type td{border-bottom:1px solid #e5e5e5;color:#4c4c4c;padding:7px 0 5px}
+.tbl_type tr:hover{background:#ededed}
+.tbl_type em{color:#903;font-weight:bolder}
+.tbl_type2{border-bottom:1px solid #dddee2;table-layout:fixed}
+.tbl_type2 th{border-top:1px solid #dddee2;background:#f1f1f3;color:#666;font-weight:700;text-align:left;vertical-align:top;padding:8px 0 5px 20px}
+.tbl_type2 td{border-top:1px solid #dddee2;vertical-align:top;padding:8px 5px 5px 12px}
+.tbl_type3{width:100%;border-bottom:1px solid #dddee2;table-layout:fixed;font-size:11px;line-height:14px}
+.tbl_type3 th{border-top:1px solid #dddee2;background:#f1f1f3;color:#666;font-weight:700;text-align:left;vertical-align:top;padding:8px 0 8px 20px}
+.tbl_type3 td{border-top:1px solid #dddee2;vertical-align:top;padding:7px 5px 7px 12px}
+.tbl_type4{width:100%;border-bottom:2px solid #903;border-top:2px solid #903;table-layout:fixed}
+.tbl_type4 th{border-bottom:1px solid #903;background:#f1f1f3;color:#903;font-weight:700;text-align:center;vertical-align:top;padding:8px 0 5px 20px}
+.tbl_type4 td{border-top:1px solid #dddee2;vertical-align:top;text-align:center;font-size:11px;padding:8px 5px 5px 12px}
+.tbl_type4 strong{color:#903}
+.list_type{overflow:hidden;border-top:2px solid #c2c2c2;padding:0 10px}
+.list_type td{overflow:hidden;clear:both;color:#2d2c2d;border-bottom:1px solid #c2c2c2;text-align:left;margin:15px 0}
+.list_type td img{display:inline;float:left;border:1px solid #c2c2c2;margin:10px 0}
+.list_type td a{display:inline-block;padding:10px 0}
+.list_type td em{color:#930;padding:0 0 0 8px}
+.list_type td strong{font-size:16px;color:#930;line-height:24px}
+.tbl_type2,.tbl_type2 th,.tbl_type2 td,.tbl_type3,.tbl_type3 th,.tbl_type3 td{border:0;border-top:1px solid #dddee2}
+.tbl_type2 td.bg,.tbl_type3 td.bg,.tbl_type4 td.bg{background:#f1f1f1;color:#666;vertical-align:middle;text-align:center}
+
+/* Download*/
+.wallList{display:inline-block}
+.wallList li{float:left;width:230px;height:190px;text-align:center;font-size:11px;font-weight:bolder;color:#666}
+.wallList li:hover{background:#e1e1e1e1}
+
+/* Game Guide Menu*/
+.GameInfo_Navi{clear:both;border-top:2px solid #903;border-bottom:2px solid #903;border-right:1px solid #e4e4e4;border-left:1px solid #e4e4e4}
+.GameInfo_Navi table,.GameInfo_Navi table th,.GameInfo_Navi table td{border:0}
+.GameInfo_Navi table{width:100%;table-layout:fixed}
+.GameInfo_Navi table caption{display:none}
+.GameInfo_Navi table th{border-top:1px solid #dddee2;color:#903;background:#f1f1f3;font-weight:700;text-align:left;vertical-align:top;padding:8px 0 5px 20px}
+.GameInfo_Navi table td{border-top:1px solid #dddee2;font-size:11px;padding:8px 5px 5px 12px}
+.GameInfo_Navi ul li{float:left;background:url(../imagenes/3/rk/main/arrow_pack.gif) no-repeat 0 -43px;margin:0 10px 0 0;padding:0 0 0 10px}
+.GameInfo_Navi ul li:hover,.GameInfo_Navi ul li.on a{background-position:0 7px;color:#903}
+.GameInfo_Navi ul.noArrow li{background:none;font-weight:bolder;color:#333;padding:0}
+
+/* character Info */ 
+.characterInfo{padding-top:40px}
+.characterInfo h3 em{font-family:"Times New Roman", Times, serif;font-size:36px}
+.characterInfo ul li{background:url(../imagenes/3/rk/main/arrow_pack.gif) no-repeat 0 -91px;font-size:11px;padding:0 0 0 10px}
+.characterInfo p{margin-top:20px;width:350px}
+.swordsmanIntro{background:url(../imagenes/3/rk/GamaInfo/gameGuide/character_swordsman_introBg.jpg) no-repeat right top;min-height:450px}
+.archerIntro{background:url(../imagenes/3/rk/GamaInfo/gameGuide/character_archer_introBg.jpg) no-repeat right top;min-height:450px}
+.blackSmithIntro{background:url(../imagenes/3/rk/GamaInfo/gameGuide/character_blackSmith_introBg.jpg) no-repeat right top;min-height:450px}
+.mageIntro{background:url(../imagenes/3/rk/GamaInfo/gameGuide/character_mage_introBg.jpg) no-repeat right top;min-height:450px}
+.ninjaIntro{background:url(../imagenes/3/rk/GamaInfo/gameGuide/character_ninja_introBg.jpg) no-repeat right top;min-height:450px}
+#txt h4{border:0;margin-bottom:0}
+#txt p{margin:20px 0 10px}
+.characterInfo p em,#txt p em{color:#933;font-size:14px}
+
+/* item */
+#itemList li{border-bottom:1px solid #e4e4e4}
+#itemList h5{font-size:14px;background:url(../imagenes/3/rk/main/arrow_pack.gif) no-repeat 0 -143px;margin:10px 0 5px;padding:0 0 0 10px}
+#itemList h6{font-size:14px;color:#963}
+#itemList dl,.gameMode dl{background:#e4e4e4}
+#itemList dl dd{color:#666}
+#itemList dl dd img{margin-right:5px;margin-left:2px;padding-top:3px}
+#itemList dl dt,.gameMode dl dt{color:#900;margin:20px 0 0}
+#itemList em,.gameMode em{color:#900;letter-spacing:normal}
+#itemList ol li{background:url(../imagenes/3/rk/main/arrow_pack.gif) no-repeat 0 -87px;border:0;padding:5px 0 5px 10px}
+
+/* Ex-item, Creature */
+.exitemList ul li{float:left;width:115px;height:135px;border-bottom:1px solid #ccc;text-align:center;padding:10px}
+.exitemList ul li a{cursor:pointer}
+.exitemList img.list_img{width:95px;height:95px}
+.hiddenLayer{position:absolute;left:0;top:0;width:590px;min-height:200px;z-index:1;visibility:hidden;background-color:#FFF;border:#CCC solid 3px;padding:10px}
+.hiddenLayer h5{height:36px;display:inline-block}
+.hiddenLayer h5 em{font-size:36px;line-height:36px;color:#333;font-family:"Times New Roman", Times, serif;margin-bottom:20px}
+.hiddenLayer ul li{text-align:left;width:300px;height:18px;border:0;margin-bottom:5px;padding:0}
+.hiddenLayer ul li em{color:#960;font-weight:bolder}
+:root .exitemList ul li a:hover{z-index:-1}
+:root .hiddenLayer>p>a:hover{z-index:15;cursor:wait}
+#apDiv1,#apDiv2,#apDiv3,#apDiv4,#apDiv5{left:50px;top:700px}
+#apDiv6,#apDiv7,#apDiv8,#apDiv9,#apDiv10{left:50px;top:870px}
+#apDiv11,#apDiv12,#apDiv13,#apDiv14,#apDiv15{left:50px;top:1030px}
+#apDiv16,#apDiv17,#apDiv18,#apDiv19,#apDiv20{left:50px;top:1180px}
+#apDiv21,#apDiv22,#apDiv23,#apDiv24,#apDiv25{left:50px;top:1340px}
+#apDiv26,#apDiv27,#apDiv28,#apDiv29,#apDiv30{left:50px;top:1500px}
+#apDiv31,#apDiv32,#apDiv33,#apDiv34,#apDiv35{left:50px;top:1650px}
+#apDiv36,#apDiv37,#apDiv38,#apDiv39,#apDiv40{left:50px;top:1800px}
+#apDiv41,#apDiv42,#apDiv43,#apDiv44,#apDiv45{left:50px;top:1970px}
+#apDiv46,#apDiv47,#apDiv48,#apDiv49,#apDiv50{left:50px;top:2120px}
+#apDiv51,#apDiv52,#apDiv53,#apDiv54,#apDiv55{left:50px;top:2290px}
+#apDiv56,#apDiv57,#apDiv58,#apDiv59,#apDiv60{left:50px;top:2450px}
+#apDiv61,#apDiv62,#apDiv63,#apDiv64,#apDiv65{left:50px;top:2600px}
+#apDiv66,#apDiv67,#apDiv68,#apDiv69,#apDiv70{left:50px;top:2750px}
+
+/* GameMapList */
+.GameMapList ul li{width:673px;height:165px;border-bottom:1px solid #ccc;padding:10px}
+.GameMapList dl{margin-top:10px}
+.GameMapList dl dt{background:url(../imagenes/3/rk/main/arrow_pack.gif) no-repeat 0 -92px;border:0;line-height:16px;height:16px;font-size:11px;width:550px;margin:0 10px 0 0;padding:0 0 0 10px}
+.GameMapList dl dt em{color:#963;font-weight:bolder}
+
+/* gameMode */
+.gameMode ul{padding:10px 0 0}
+.gameMode ul li{border:0;line-height:18px;background:url(../imagenes/3/rk/main/arrow_pack.gif) no-repeat 0 -92px;letter-spacing:-.03em;padding:0 0 0 10px}
+.gameMode ul li em{color:#963;font-weight:bolder}
+.gameMode h5{margin:0 0 20px;padding:20px 0 10px}
+.gameMode img{border:1px solid #ccc}
+.gameMode dl dd{color:#666;border-bottom:1px dashed #999;padding:10px 0 15px}
+.gameMode ul.imgList li{float:left;width:220px;list-style:none;background:none;margin:0;padding:0 5px}
+.gameMode ul.imgList li img{width:215px}
+.gameMode ul.imgList2 li{float:left;width:150px;list-style:none;background:none;padding:0 5px}
+.gameMode ul.imgList2 li img{width:140px}
+.gameMode ul.list_none{display:inline}
+.gameMode ul.list_none li{list-style:decimal;background:none;margin:0 0 10px 20px;padding:0}
+.beginner ul li{margin:15px 0 0}
+.beginner ul li img{border:1px solid #CCC}
+.gameMode ul.imgList,.gameMode ul.imgList2{display:inline-block;clear:both}
+
+/* About */
+.about div.feature{display:inline-block;min-height:550px;background:url(../imagenes/3/rk/GamaInfo/about/feature_img01.jpg) no-repeat;padding:150px 0 0 150px}
+.about div.feature2{display:inline-block;min-height:550px;background:url(../imagenes/3/rk/GamaInfo/about/feature_img02.jpg) no-repeat;padding:150px 0 0 150px}
+.about div.feature h3 em,.about div.feature2 h3 em{font-family:"Times New Roman", Times, serif;font-size:34px;line-height:40px}
+.about div.feature p,.about div.feature2 p{margin-top:30px}
+.about div.story{display:inline-block;min-height:600px;background:url(../imagenes/3/rk/GamaInfo/about/story_img01.jpg) 0 45px no-repeat;padding:0 0 40px}
+.about div.story h3{font-family:"Times New Roman", Times, serif;line-height:40px;color:#C93;padding:50px 0 0 15px}
+.about div.story h3 strong{font-size:34px}
+.about div.story p{color:#e4e4e4;padding:30px 280px 0 15px}
+.about div.story ul li{float:left}
+
+/* Community */ 
+.fanList li{float:left;width:320px;padding:10px 0 0 10px}
+.fanList img{border:1px solid #ccc}
+
+/* paginate */
+.paginate_simple{border:none;text-align:center}
+.paginate_simple tr{text-align:center;border:0}
+.paginate_simple td{background-color:#FFF;border:0 none;font-size:11px;padding-left:10px;text-align:center;color:#963}
+.paginate_simple span{margin-top:15px;display:inherit;font-size:11px;color:#C00}
+.paginate_simple table{margin:15px auto 0}
+.paginate_simple a{color:#707070}
+.paginate_simple a:hover,.paginate_simple a.on{color:#C03;font-weight:bolder}
+
+/* basic input */
+.item{position:relative;margin:-4px 0}
+.item .i_help{position:absolute;top:4px;right:0}
+.item .i_label{top:6px;left:10px}
+.item .i_dsc{margin:2px 0}
+.item .i_check,.item .i_radio{width:13px;height:13px;vertical-align:middle;margin:2px 5px 2px 0;padding:0}
+.item .i_text{position:relative;border:1px solid #b7b7b7;border-right-color:#e1e1e1;border-bottom-color:#e1e1e1;background:transparent;font-size:12px;color:#777;margin:2px;padding:3px 4px}
+.item .hide{visibility:hidden;position:absolute;top:0;left:0;width:1px;height:1px;font-size:0;line-height:0}
+.item select{height:24px;margin:2px;padding:3px 2px 3px 4px}
+.item label{cursor:pointer;margin:0 10px 0 0}
+
+/* 추가 파일 */
+.reply{margin-top:2px;background:#e4e4e4}
+.reply em{font-size:14px;font-weight:bolder;color:#963}
+.clear{clear:both}
+.align_L{text-align:left}
+.align_R{text-align:right}
+.align_C{text-align:center}
+.float_R{float:right}
+.float_L{float:left}
+.padding10{padding:10px}
+.font_11{font-size:11px;line-height:14px;letter-spacing:0;padding:2px 0}
+.list_a{color:#960;display:inline}
+.list_a li{list-style:disc inside;background:none;padding:0 0 0 10px}
+.red{color:#903}
+
+.rankingTop,.clanTop{display:inline-block;margin-bottom:20px}
+.rankingTop ul li.ranking1,.clanTop ul li.newClan{background-position:0 0}
+.rankingTop ul li.ranking2,.clanTop ul li.bestMember{background-position:-231px 0}
+.rankingTop ul li.ranking3,.clanTop ul li.bestRanking{background-position:-463px 0}
+.clanTop ul li ul span,.about div.story ul li,.float_L{float:left}

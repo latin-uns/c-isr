@@ -1,0 +1,220 @@
+@charset "utf-8";
+/* CSS Document */
+/* basic CSS */
+body,div,ul,li,dl,dt,dd,ol,p,h1,h2,h3,h4,h5,h6,form{text-decoration:none;margin:0;padding:0}
+ul,ol,dl,li{list-style:none}
+img{border:0;vertical-align:top}
+ul{list-style:none;margin:0;padding:0}
+a,img,input{selector-dummy:expression(this.hideFocus=true)}
+:focus{-moz-outline-style:none}
+a:link,a:visited{color:#848484;text-decoration:none}
+a:hover,a.on{color:#C00}
+em{font-style:normal}
+.basictext_style01{font-family:Verdana, Arial, Helvetica, sans-serif;font-size:12px;color:#848484}
+.basictext_style02{font-family:Verdana, Arial, Helvetica, sans-serif;font-size:11px;color:#848484}
+
+/* main rayout */
+#rk_left_bg{position:absolute;left:-498px;background:url(../imagenes/3/rk/main/120911_main_leftBG.jpg) right 0 no-repeat;width:50%;min-height:795px;margin:0}
+#rk_right_bg{position:absolute;z-index:0;right:0;background:url(../imagenes/3/rk/main/120911_main_rightBG.jpg) 498px 0 no-repeat;width:50%;min-height:795px;margin:0}
+*:first-child+html #rk_right_bg{background-position:499px 0}
+#rk_center{position:relative;z-index:444;background:url(../imagenes/3/rk/main/121217_mainBG.jpg) no-repeat;width:996px;margin:0 auto}
+#mainContents{display:inline-block;min-height:690px;background:#e4e4e4;margin-top:5px}
+#mLeftContents{float:left;width:292px}
+#mCenterContents{float:left;width:440px}
+#mRightContents{float:left;width:264px}
+#footer{clear:both}
+
+/* mainTop, StartBTN */
+.rk_top_area{position:relative;width:996px;height:280px;margin:0 auto}
+.rk_top_area h1 a{position:absolute;left:380px;top:30px;display:inline-block;width:300px;height:135px;z-index:2}
+.startBtn{position:absolute;top:160px;left:318px;cursor:pointer}
+:first-child+html .startBtn{position:absolute;top:159px;left:318px}
+.startBtn a img{opacity:0.0;filter:alpha(opacity=0)}
+.startBtn a img:hover{opacity:1.0;filter:alpha(opacity=100)}
+
+/* RK GNB */ 
+#GNBmenu{width:996px;height:65px;background:url(../imagenes/3/rk/main/menu_bg.jpg) no-repeat}
+
+/* GNBMENU */.topMenu{font:bold 14px Verdana;width:100%}
+.topMenu ul{z-index:100;list-style-type:none;margin:0;padding:0}
+.topMenu ul li{position:relative;display:inline;float:left}
+.topMenu ul li a{display:block;height:22px;color:#b88558;text-decoration:none;padding:20px 0 20px 30px}
+* html .topMenu ul li a{display:inline-block}
+.topMenu ul li a:link,.topMenu ul li a:visited{color:#b88558}
+.topMenu ul li ul{position:absolute;left:0;display:none;visibility:hidden;letter-spacing:0}
+.topMenu ul li ul li{display:list-item;float:none}
+.topMenu ul li ul li ul{top:0}
+.topMenu ul li ul li a{font:bold 12px Verdana;width:170px;border-bottom:1px solid #300;background:#240000;z-index:99;margin:0;padding:7px 10px 0 30px}
+:first-child+html .topMenu ul li ul li a{margin:0 0 -1px}
+* html .topMenu{height:1%}
+.downarrowclass{position:absolute;top:12px;right:7px}
+.rightarrowclass{position:absolute;top:6px;right:5px}
+.ddshadow{position:absolute;left:0;top:0;width:0;height:0;background:#000}
+.toplevelshadow{opacity:0.8}
+.topMenu ul li a.selected,.topMenu ul li a:hover{color:#FFF}
+/**************************************** SoftnyxTop menu start *******************************/
+
+#common_top{width:100%;height:69px;background-image:url(../imagenes/3/sn/sn_top/top_bg.gif)}
+#mainmenu{width:996px;padding-left:20px;height:69px;background-image:url(../imagenes/3/sn/sn_top/top_bg.gif);margin:0 auto}
+ul.dropdown li.main_logo{padding-right:20px}
+#maintop_left{float:left;width:620px;height:69px;background-image:url(../imagenes/3/sn/sn_top/top_bg.gif)}
+#maintop_right{float:left;width:376px;height:69px;background-image:url(../imagenes/3/sn/sn_top/top_bg.gif)}
+ul.dropdown{position:relative;z-index:597;float:left;padding-top:22px;display:block;font:bold 35px/normal Verdana, Geneva, sans-serif;font-size:14px}
+ul.dropdown li{float:left;line-height:1.3em;vertical-align:middle;zoom:1;background-color:transparent;color:#9a9a9a;padding:0}
+ul.dropdown li.hover,ul.dropdown li:hover{position:relative;z-index:599;cursor:pointer;color:#fcb416}
+ul.dropdown ul.menu1{visibility:hidden;position:absolute;top:69px;left:0;z-index:598;width:760px}
+ul.dropdown ul.menu2{visibility:hidden;position:absolute;top:69px;left:217px;z-index:598;width:100px}
+ul.dropdown ul.menu4{visibility:hidden;position:absolute;top:69px;left:422px;z-index:598;width:auto}
+ul.dropdown ul.menu5{visibility:hidden;position:absolute;top:69px;left:480px;z-index:598;width:auto}
+ul.dropdown ul.menu6{visibility:hidden;position:absolute;top:28px;left:50px;width:auto}
+ul.dropdown ul li{float:none;font-weight:700}
+ul.dropdown ul ul{top:1px;left:99%;display:block!important;position:static;width:auto!important;margin-top:5px;text-transform:none;margin-left:0;padding:0}
+ul.dropdown li:hover > ul{visibility:visible}
+ul.dropdown-linear{width:100%}
+ul.dropdown-linear ul ul{display:none!important}
+ul.dropdown ul.menu2 ul{display:block!important;position:static;width:100px!important}
+ul.dropdown ul.menu6 ul{display:block!important;position:static;width:191px!important}
+ul.dropdown-columnar ul ul li{float:none}
+ul.dropdown-columnar ul ul ul{display:none}
+ul.dropdown-columnar li.hover ul,ul.dropdown-columnar li:hover ul{visibility:visible!important}
+ul.dropdown ul{background-color:#242424;font-size:11px;letter-spacing:normal;z-index:600;padding:0 10px}
+ul.dropdown .game_menu{color:#969696;text-align:center}
+ul.dropdown .menu1 .dir{background:url(../imagenes/3/sn/sn_top/gamemenu_verLine.gif) no-repeat 100% 28%;padding-right:11px}
+* html ul.dropdown ul{width:996px}
+ul.dropdown ul ul li{font-weight:700}
+ul.dropdown ul .dir{background-image:none}
+ul.dropdown li a{display:block;padding:0}
+ul.dropdown li.dir{display:block;padding:4px 0 26px 20px}
+ul.dropdown li.dir_servertime{font-size:11px;font-weight:400;color:#989898;cursor:default}
+ul.dropdown li.dir_language{width:90px;display:block;padding:0 0 4px 15px}
+ul.dropdown li.dir_login{display:block;margin-top:10px;padding:0}
+ul.dropdown li.dir_login li{padding:3px}
+/*********************EDITAR AQUI*******************************************************/
+.dir_forum{display:block;background:url(../imagenes/3/sn/sn_top/mainmenu_verLine.gif) no-repeat 100% 50%;padding:4px 22px 4px 20px}
+/**************************/
+li.dir:hover{background-image:url(../imagenes/3/sn/sn_top/menu_select.png);background-position:50% 100%;background-repeat:no-repeat}
+li.dir .menu5:hover{background-image:url(../imagenes/3/sn/sn_top/menu_select.png);background-position:80% 100%;background-repeat:no-repeat}
+ul.dropdown ul li.dir{padding:10px}
+#maintop_right ul.dropdown{padding-top:11px;padding-left:0;float:left;font-size:11px;width:273px;display:block}
+ul.dropdown .menu1 a{width:74px;padding:0}
+
+ul.dropdown .menu2 a{width:70px;background:url(../imagenes/3/sn/sn_top/pattern2.png) 0 23px repeat-x;padding:5px}
+ul.dropdown .menu4 a{width:auto;background:url(../imagenes/3/sn/sn_top/pattern2.png) 0 23px repeat-x;padding:5px}
+ul.dropdown .menu5 a{width:140px;background:url(../imagenes/3/sn/sn_top/pattern2.png) 0 23px repeat-x;padding:5px}
+ul.dropdown .menu6 a{width:180px;background:url(../imagenes/3/sn/sn_top/pattern2.png) 0 23px repeat-x;font-size:11px;font-weight:400;padding:5px}
+ul.dropdown .menu7 a{width:180px;font-size:11px;font-weight:400;padding:5px}
+ul.dropdown .menu7 .top_login a{padding-top:19px;padding-left:5px;font-size:11px;letter-spacing:-.3px;float:left;background:url(../imagenes/3/sn/sn_top/login_btnBg.jpg) no-repeat;width:51px;height:37px;color:#FFF}
+ul.dropdown .menu7 .top_login a:link{color:#fff}
+
+.button,.button *{position:relative;display:inline-block;text-decoration:none!important;border:0;font-size:11px;font-family:Verdana, Geneva, sans-serif;white-space:nowrap;background:url(../imagenes/3/sn/sn_top/btn_bg01.png) no-repeat;vertical-align:top;overflow:visible;color:#9a9a9a;margin:0;padding:0}
+.button{margin-right:9px}
+.button.medium *{font-size:11px;background-position:right top;padding:0 5px 0 3px}
+.button01,.button01 *{position:relative;display:inline-block;text-decoration:none!important;border:0;font-size:11px;font-family:Verdana, Geneva, sans-serif;white-space:nowrap;background:url(../imagenes/3/sn/sn_top/btn_bg02.png) no-repeat;vertical-align:top;overflow:visible;color:#fff;margin:0;padding:0}
+.button01{padding-left:20px;margin-right:9px}
+.button01.medium01 *{font-size:11px;background-position:right top;padding:0 6px 0 4px}
+.button02,.button02 *{position:relative;display:inline-block;text-decoration:none!important;border:0;font-size:11px;font-family:Verdana, Geneva, sans-serif;white-space:nowrap;background:url(../imagenes/3/sn/sn_top/btn_bg03.png) no-repeat;vertical-align:top;overflow:visible;color:#fff;margin:0;padding:0}
+.button02{padding-left:8px;margin-right:9px}
+.button02.medium02,.button02.medium02 *{height:23px;line-height:21px}
+.button02.medium02 *{font-size:12px;background-position:right top;padding:0 10px 0 6px}
+ul li .button02 :hover,.button02 :active,.button02 :focus{color:#000}
+.button03,.button03 *{position:relative;display:inline-block;text-decoration:none!important;border:0;font-size:11px;font-family:Verdana, Geneva, sans-serif;white-space:nowrap;background:url(../imagenes/3/sn/sn_top/btn_bg04.png) no-repeat;vertical-align:top;overflow:visible;color:#434343;margin:0;padding:0}
+.button03{padding-left:8px;margin-right:2px}
+.button03.medium03,.button03.medium03 *{height:20px;line-height:19px}
+.button03.medium03 *{font-size:11px;background-position:right top;padding:0 10px 0 6px}
+.button03 :hover,.button03 :active,.button03 :focus{color:#f26223}
+.ad_area{float:left;padding:5px 10px 0 20px}
+ul.dropdown .top_login{float:left;width:50px;height:56px;padding-top:5px;padding-left:8px}
+ul.dropdown .top_logout{float:left;padding-top:15px}
+ul.dropdown .top_logout_hello{float:left;padding-top:15px;cursor:default;background:url(../imagenes/3/sn/sn_top/smile_icon.png) no-repeat 0 100%;padding-left:18px}
+ul.dropdown .top_pw{clear:both}
+ul.dropdown-linear ul li,ul.dropdown li.dir_login ul{float:left}
+ul.dropdown-linear li.hover,ul.dropdown-linear li:hover,ul.dropdown-columnar ul li{position:static}
+ul.dropdown ul.menu1 ul,ul.dropdown ul.menu4 ul,ul.dropdown ul.menu5 ul{display:block!important;position:static;width:auto!important}
+ul.dropdown li.top_logout,ul.dropdown li.top_logout_hello{color:#9a9a9a}
+ul.dropdown .dir_forum a:link,ul.dropdown .dir_forum a:visited{color:#9a9a9a;text-decoration:none}
+ul.dropdown .dir_forum a:hover,ul.dropdown a:hover,ul.dropdown ul a:hover,ul.dropdown .menu7 .top_login a:hover,ul.dropdown .menu7 .top_pw a:hover,.button :hover,.button :active,.button :focus{color:#fcb416}
+ul.dropdown .dir_forum a:active,ul.dropdown a:active{color:orange}
+ul.dropdown a:link,ul.dropdown a:visited{color:#969696;text-decoration:none}
+ul.dropdown .button01 a:link,ul.dropdown .button01 a:visited{color:#fff;text-decoration:none}
+ul.dropdown .button01 a:hover,ul.dropdown .button01 a:active,ul li .button01 :hover,.button01 :active,.button01 :focus{color:#004474}
+ul.dropdown ul a:link,ul.dropdown .menu7 .top_pw a:link{color:#969696}
+.button *,.button01 *,.button02 *,.button03 *{left:4px;cursor:pointer;_cursor:hand}
+.button.medium,.button.medium *,.button01.medium01,.button01.medium01 *{height:23px;line-height:23px}
+.button.medium,.button01.medium01,.button02.medium02,.button03.medium03{background-position:0 0}
+/******************************************************************** SoftnxyTop menu //**************************************************************/
+
+/******************************************************************* Basic Button **********************************************************************/
+
+.button03,.button03 *{position:relative;display:inline-block;text-decoration:none!important;border:0;font-size:12px;font-weight:700;font-family:Verdana, Geneva, sans-serif;white-space:nowrap;background:url(Image/common/basic_btn.html) no-repeat;vertical-align:top;overflow:visible;color:#434343;margin:0;padding:0}
+.button03{padding-left:8px;margin-right:9px}
+.button04,.button04 *{position:relative;display:inline-block;text-decoration:none!important;border:0;font-size:11px;font-weight:700;font-family:Verdana, Geneva, sans-serif;white-space:nowrap;background:url(Image/common/basic_small_btn.html) no-repeat;vertical-align:top;overflow:visible;color:#434343;margin:0;padding:0}
+.button04{padding-left:1px;margin-right:1px}
+.button04 *{left:1px;cursor:pointer;_cursor:hand}
+.button04.medium04,.button04.medium04 *{height:24px;line-height:24px}
+.button04.medium04 *{font-size:11px;font-weight:700;background-position:right top;padding:0}
+.button05,.button05 *{position:relative;display:inline-block;text-decoration:none!important;border:0;font-size:12px;font-weight:700;font-family:Verdana, Geneva, sans-serif;white-space:nowrap;background:url(Image/common/point_btn.html) no-repeat;vertical-align:top;overflow:visible;color:#960b0b;margin:0;padding:0}
+.button06,.button06 *{position:relative;display:inline-block;text-decoration:none!important;border:0;font-size:12px;font-weight:700;font-family:Verdana, Geneva, sans-serif;white-space:nowrap;background:url(Image/common/facebook_btn.html) no-repeat;vertical-align:top;overflow:visible;color:#fff;margin:0;padding:0}
+.login_button,.login_button *{position:relative;display:inline-block;text-decoration:none!important;border:0;font-size:11px;font-family:Verdana, Geneva, sans-serif;white-space:nowrap;background:url(Image/main/login_btn.html) no-repeat;vertical-align:top;overflow:visible;color:#FFF!important;margin:0;padding:0}
+.login_button.medium,.login_button.medium *{height:42px;line-height:23px}
+.login_button.medium *{font-size:11px;background-position:right top;padding:7px 5px 0 3px}
+:first-child+html .login_btn_hack{margin-top:10px}
+.face_button01,.face_button01 *{position:relative;display:inline-block;text-decoration:none!important;border:0;font-size:11px;font-family:Verdana, Geneva, sans-serif;white-space:nowrap;background:url(Image/main/facebook_btn.html) no-repeat;vertical-align:top;overflow:visible;color:#fff;margin:0;padding:0}
+.face_button01{padding-left:20px;margin-right:9px;color:#fff}
+.face_button01 *{left:4px;cursor:pointer;_cursor:hand;color:#fff}
+.face_button01.face_medium01,.face_button01.face_medium01 *{height:42px;line-height:23px;color:#fff}
+.face_button01.face_medium01{background-position:0 0;color:#fff}
+.face_button01.face_medium01 *{font-size:11px;background-position:right top;color:#fff;padding:7px 6px 0 4px}
+.login_button01,.login_button01 *{position:relative;display:inline-block;text-decoration:none!important;border:0;font-size:11px;font-family:Verdana, Geneva, sans-serif;white-space:nowrap;background:url(Image/main/gray_btn.html) no-repeat;vertical-align:top;overflow:visible;color:#FFF!important;margin:0;padding:0}
+.login_button01.medium01,.login_button01.medium01 *{height:26px;line-height:23px}
+.basic_button,.basic_button *{position:relative;display:inline-block;text-decoration:none!important;border:0;font-size:12px;font-weight:700;font-family:Verdana, Geneva, sans-serif;white-space:nowrap;background:url(Image/main/basic_btn.html) no-repeat;vertical-align:top;overflow:visible;color:#707070!important;margin:0;padding:0}
+.basic_button.medium,.basic_button.medium *{height:29px;line-height:27px}
+.basic_button.medium *{font-size:12px;font-weight:700;background-position:right top;padding:0 5px 0 3px}
+.more_button,.more_button *{position:relative;display:inline-block;text-decoration:none!important;border:0;font-size:9px!important;font-family:Verdana, tohama, sans-serif;white-space:nowrap;background:url(Image/main/more_btn.html) no-repeat;vertical-align:top;overflow:visible;color:#FFF!important;margin:0;padding:0}
+.more_button.medium,.more_button.medium *{height:17px;line-height:16px}
+.button03 *,.button05 *,.button06 *,.login_button *,.login_button01 *,.basic_button *,.more_button *{left:4px;cursor:pointer;_cursor:hand}
+.button03.medium03,.button03.medium03 *,.button05.medium05,.button05.medium05 *,.button06.medium06,.button06.medium06 *{height:29px;line-height:26px}
+.button03.medium03,.button04.medium04,.button05.medium05,.button06.medium06,.login_button.medium,.login_button01.medium01,.basic_button.medium,.more_button.medium{background-position:0 0}
+.button03.medium03 *,.button05.medium05 *,.button06.medium06 *{font-size:12px;font-weight:700;background-position:right top;padding:0 10px 0 6px}
+.button03 :hover,.button03 :active,.button03 :focus,.button04 :hover,.button04 :active,.button04 :focus,.button06 :hover,.button06 :active,.button06 :focus{color:#fe7e00}
+.button05,.button06{padding-left:4px;margin-right:9px}
+.button05 :link,.basic_button :hover,.basic_button :active,.basic_button :focus{color:#960b0b}
+.button05 :hover,.button05 :active,.button05 :focus,.button06 :link{color:#fff}
+.login_button,.login_button01,.basic_button,.more_button{margin-right:9px}
+.login_button :hover,.login_button :active,.login_button :focus,.login_button01 :hover,.login_button01 :active,.login_button01 :focus,.more_button :hover,.more_button :active,.more_button :focus{color:#ffea00}
+.login_button01.medium01 *,.more_button.medium *{font-size:11px;background-position:right top;padding:0 5px 0 3px}
+@media screen and -webkit-min-device-pixel-ratio0 {
+.button05 a{color:#960b0b}
+.button06 a{color:#fff}
+}
+/****************************************************** Softnyx Bottom *******************************************************/
+#main_bottom{height:80px;clear:both;padding-top:40px}
+.bottom01{width:100%;height:75px}
+.bottom02{width:996px;font-size:11px;color:#7c7c7c;text-align:center;margin:0 auto}
+.bottom02 li{display:inline;line-height:20px}
+.bottom02 li a:hover{color:#f26223}
+.bottom02 li a:active{color:#7c7c7c}
+.bottom_icon01{background:url(../imagenes/3/sn/sn_top/softnyx_icon02.png) no-repeat 0 100%;padding-left:48px}
+.bottom_icon02{background:url(../imagenes/3/sn/sn_top/mail_icon.gif) no-repeat 0 80%;padding-left:12px}
+.bottom02 li a:link,.bottom02 li a:visited{color:#7c7c7c;text-decoration:none}
+
+/******************************************************  Softnyx Bottom// *******************************************************/
+
+/****************************************************** Rakion Btn Set ***********************************************************/
+.btn_pack,.btn_pack *{display:inline-block;overflow:visible;position:relative;border:0;letter-spacing:0;background:url(../imagenes/3/rk/main/btn_pack.png) no-repeat;color:#FFF;text-decoration:none!important;vertical-align:top;white-space:nowrap;font:bolder 12px Tahoma, Sans-serif;margin:0;padding:0}
+.btn_pack{margin-right:4px}
+.btn_pack *{left:4px;cursor:pointer;_cursor:hand}
+.btn_pack.blue,.btn_pack.blue *{height:30px;line-height:27px;color:#fff}
+.btn_pack.white,.btn_pack.white *{height:30px;line-height:27px;color:#600}
+.btn_pack.redB,.btn_pack.redB *{height:30px;line-height:27px}
+.btn_pack.redS,.btn_pack.redS *{height:19px;line-height:14px;color:#e4c9c9}
+.btn_pack.blue{background-position:left 0}
+.btn_pack.white{background-position:left -39px}
+.btn_pack.redB{background-position:left -78px}
+.btn_pack.redS{background-position:left -117px}
+.btn_pack.blue *{background-position:right top;font-size:12px;padding:0 10px 0 6px}
+.btn_pack.white *{background-position:right -39px;font-size:12px;padding:0 10px 0 6px}
+.btn_pack.redB *{background-position:right -78px;color:#e4c9c9;font-size:12px;padding:0 10px 0 6px}
+.btn_pack.redS *{background-position:right -117px;color:#e4c9c9;font-size:11px;padding:0 6px 0 2px}
+.btn_pack :hover,.btn_pack :active,.btn_pack :focus{color:#C00}
+.btn_pack.blue :hover,.btn_pack.blue :active,.btn_pack.blue :focus{color:#6CF}
+.btn_pack.strong *{font-weight:700!important}
